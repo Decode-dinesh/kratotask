@@ -1,0 +1,31 @@
+.analytics{
+    width: 100%;
+    
+    background-color:black;
+    color: white;
+    top: 50px;
+    border-radius: 10px;
+}
+
+.analyticsTitle{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.anaylticsItem{
+    margin: 10px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.analyticsList{
+  margin-left: 50px;
+}
+
+.analyticsSub{
+    font-size: 15px;
+    color: grey;
+}
