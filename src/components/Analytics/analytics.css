@@ -1,6 +1,4 @@
 .analytics{
-    width: 100%;
-    
     background-color:black;
     color: white;
     top: 50px;
@@ -8,9 +6,11 @@
 }
 
 .analyticsTitle{
+    margin: 20px;
+    padding-top: 25px;
     font-size: 20px;
     font-weight: bold;
-    text-align: center;
+    
 }
 
 .anaylticsItem{
@@ -22,7 +22,7 @@
 }
 
 .analyticsList{
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .analyticsSub{

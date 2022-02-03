@@ -5,8 +5,8 @@ export default function Main() {
   return (
     <>
     <div className="container">
-    <div className="row height d-flex justify-content-center align-items-center">
-        <div className="col-md-6">
+    <div className="row">
+        <div className="col">
             <div className="search"><input type="text" className="form-control" placeholder="Search for stats" /> </div>
         </div>
     </div>

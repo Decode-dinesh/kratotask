@@ -12,33 +12,33 @@ import {
 const data = [
   {
     name: "20%",
-    uv: 4000,
+    uv: 8,
   
-    amt: 2400
+    amt: 50
   },
   {
     name: "30%",
-    uv: 3000,
+    uv: 30,
   
-    amt: 2210
+    amt: 40
   },
   {
     name: "80%",
-    uv: 2000,
+    uv: 45,
 
-    amt: 2290
+    amt: 20
   },
   {
     name: "40%",
-    uv: 2780,
+    uv: 15,
 
-    amt: 2000
+    amt: 20
   },
   {
     name: "20%",
-    uv: 1890,
+    uv: 8,
   
-    amt: 2181
+    amt: 10
   },
 
 ];
@@ -46,18 +46,16 @@ const data = [
 export default function Chart() {
   return (
     <BarChart
-      width={300}
+      width={250}
       height={250}
       data={data}
       margin={{
         top: 5,
-        right: 0,
-        left: 0,
         bottom: 5
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" />
+      <XAxis dataKey="name"  />
       <YAxis />
       <Tooltip />
       <Legend />
